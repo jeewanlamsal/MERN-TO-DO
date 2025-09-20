@@ -40,6 +40,10 @@ export default function Login() {
         />
         <button className="bg-green-500 text-white px-4 py-2 rounded">Login</button>
         {message && <p className="mt-2">{message}</p>}
+        <button 
+        onClick={()=>navigate('/register')}
+        className="ml-2 mt-2 bg-green-500 text-white px-4 py-2 rounded">Register</button>
+        
       </form>
     </div>
   );
