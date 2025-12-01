@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://mern-to-do-p7zm.onrender.com',
+  baseURL: 'https://mern-to-do-1-anbu.onrender.com',
 });
 
 // Automatically attach token
